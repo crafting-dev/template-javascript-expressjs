@@ -1,0 +1,27 @@
+{
+  "name": "template-javascript-expressjs",
+  "version": "1.0.0",
+  "description": "A Javascript/Expressjs template, for quick development setup in Cloud Sandbox",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crafting-dev/template-javascript-expressjs.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crafting-dev/template-javascript-expressjs/issues"
+  },
+  "homepage": "https://github.com/crafting-dev/template-javascript-expressjs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
